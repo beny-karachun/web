@@ -79643,13 +79643,13 @@ m=h.a
 m.toString
 f=A.Y(e,!0,t.QJ)
 B.b.R(f,h.as)
-g.a="<b>Average Before Any Pass/Fail:</b> "+B.c.a7(m.Eh(f),2)+"<br>\n<b>Optimized Final Average:</b> "+B.c.a7(k,2)+"<br>\n"
+g.a="Average Before Any Pass/Fail: "+B.c.a7(m.Eh(f),2)+"\nOptimized Final Average: "+B.c.a7(k,2)+"\n"
 f=J.b2(j)
 m=f.gbB(j)
 i=g.a
-if(m){g.a=i+"<b>Courses Converted to Pass:</b><br>"
+if(m){g.a=i+"Courses Converted to Pass:"
 for(f=f.ga5(j);f.v();){m=f.gI()
-g.a=g.a+("- "+m.c+" (grade="+A.o(m.e)+")<br>")}}else g.a=i+"No courses were converted to Pass."
+g.a=g.a+("- "+m.c+" (grade="+A.o(m.e)+")")}}else g.a=i+"No courses were converted to Pass."
 h.a9(new A.afF(g,h))}}
 A.afI.prototype={
 $1(a){var s=null,r=this.a,q=A.c3("Edit "+r,s,s,s,s,s,s,s),p=this.b,o=A.fw(p,B.mz,r==="Grade"||r==="Credits"?B.bD:B.ki)
@@ -85836,7 +85836,7 @@ B.S5=new A.cl("GPA & Pass/Fail Calculator",null,null,null,null,null,null,null,nu
 B.S6=new A.cl("Weight",null,null,null,null,null,null,null,null,null)
 B.S7=new A.cl("How many past semesters?",null,null,null,null,null,null,null,null,null)
 B.yo=new A.cl("Save",null,null,null,null,null,null,null,null,null)
-B.S9=new A.cl("Enter by Past Semesters",null,null,null,null,null,null,null,null,null)
+B.S9=new A.cl("Enter by Past Semesters (Fastest)",null,null,null,null,null,null,null,null,null)
 B.Sa=new A.cl("Welcome to the Offline GPA & Pass/Fail Calculator!\n\n1. 'Saved Grades' Tab: Add courses (Course ID optional) and directly edit them in the table.\n   The table is sortable by any column, and changes are saved automatically.\n\n2. 'Optimal Binary Pass' Tab: Enter current-semester courses. You can also directly edit these cells. Then compute the optimal pass/fail combination.",null,null,null,null,null,null,null,null,null)
 B.Sb=new A.cl("Number of Binary Passes Allowed:",null,null,null,null,null,null,null,null,null)
 B.Sc=new A.cl("Course ID",null,null,null,null,null,null,null,null,null)
